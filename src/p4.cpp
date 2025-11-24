@@ -1,17 +1,9 @@
 // 題目 4：遞迴的足跡 (Footsteps of Recursion) - 30分
-// 必須實作：fib
 
 #include <iostream>
 using namespace std;
 
-int fib(int n) {
-    
-}
-
 int main() {
-    int n;
-    cin >> n;
-    
     
     
     return 0;
