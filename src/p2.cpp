@@ -2,9 +2,20 @@
 
 #include <iostream>
 using namespace std;
-
+int gcd(int a,int b){
+    int r = b;
+    b = a % b;
+    a = r;
+    if (b == 0){
+        return a;
+    }
+    else{
+        return(gcd(a,b));
+    }
+}
 int main() {
-    
-    
+    int a,b;
+    cin >> a >> b;
+    cout << gcd(a,b)<< endl;
     return 0;
 }
